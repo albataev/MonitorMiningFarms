@@ -1,0 +1,30 @@
+{
+  "rigs": {
+    "rig001": {
+      "id": "001",
+      "port": 10101,
+      "ip": "92.1.1.1",
+      "gpu_amount": 8,
+      "hashrate": 238500,
+      "login": "USER",
+      "password": "PASS"
+    },
+      "rig003": {
+      "id": "003",
+      "port": 10103,
+      "ip": "92.8.8.8",
+      "gpu_amount": 5,
+      "hashrate": 185500,
+      "login": "USER",
+      "password": "PASS"
+    }
+  },
+  "email":{
+    "smtp_server":"smtp.gmail.com:587",
+    "mail_server":"imap.gmail.com",
+    "username": "USER@gmail.com",
+    "password": "PASS",
+    "fromaddr": "USER@gmail.com",
+    "toaddr":"USER@icloud.com"
+  }
+}
